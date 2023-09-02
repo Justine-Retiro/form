@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500&display=swap');
+
+
+*{
+    font-family: 'Fredoka', sans-serif;
+}
+
+body{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    display: flex;
+    
+    justify-content: space-between;
+    background-color: rgb(234, 234, 234);
+    width: 40vw;
+    padding: 4em;
+    border-radius: 9px;
+}
+
+.wrapper{
+    background-color: rgb(190, 190, 190);
+    display: flex;
+    width: 50%;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Wrapper text */
+#connect{
+    text-align: left;
+    margin: 0;
+    font-size: 40px;
+    color: white;
+}
+
+/* Form */
+h1{
+    text-align: right;
+}
+form{
+    float: right;
+    margin: 1.2em;
+}
+
+
+/* Text fiels */
+input, textarea{
+    width: 190px;
+    padding: .8em;
+    height: 18px;
+    border-style: none;
+    border-radius: 5px;
+}
+
+
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+button{
+    margin-right: 1em;
+    border-radius: 7px;
+    border-style: none;
+    padding: 8px 20px;
+    box-shadow: 0px 0px 53px -10px rgba(0,0,0,0.53);
+    -webkit-box-shadow: 0px 0px 53px -10px rgba(0,0,0,0.53);
+    -moz-box-shadow: 0px 0px 53px -10px rgba(0,0,0,0.53);
+    transition: all 500ms ease;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+#clear{
+    background-color: lightcoral;
+}
+
+#clear:hover{
+    background-color: coral;
+}
+
+#done{
+    background-color: lightgreen;
+}
+
+#done:hover{
+    background-color: greenyellow;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Details Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="wrapper">
+            <h1 id="connect">Connect <br>Now!</h1>
+        </div>
+        <form id="userDetailsForm" onsubmit="return false;">
+            <h1>User Details Form</h1>
+            <label for="fName">First Name:</label>
+            <br>
+            <input type="text" id="fName" name="fName" required><br><br>
+            <label for="mName">Middle Name:</label>
+            <br>
+            <input type="text" id="mName" name="mName" required><br><br>
+    
+            <label for="lName">Last Name:</label>
+            <br>
+            <input type="text" id="lName" name="lName" required><br><br>
+    
+            <label for="bday">Birthday (Month/Day/Year):</label>
+            <br>
+            <input type="date" id="bday" name="bday" required><br><br>
+    
+            <label for="add">Address:</label>
+            <br>
+            <textarea id="add" name="add" rows="4" required></textarea><br><br>
+            
+            <div class="btn-container">
+                <button type="button" id="clear" onclick="clearForm()">Clear</button>
+                <button type="button" id="done" onclick="submitForm()">Submit</button>
+            </div>
+        </form>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
